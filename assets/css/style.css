@@ -50,7 +50,9 @@ main {
 
 h2 {
     color: #4aaaa5;
-    padding: 10px 22px;
+    padding: 10px 0px 20px 0px;
+    border-bottom: 4px solid #ccc;
+    margin: 22px;
 }
 
 .wrapper {
@@ -73,9 +75,37 @@ footer {
     position: relative;
 }
 
+p {
+    padding: 0px 22px 22px 22px;
+}
+
 .bio-pic {
-    width: 300px;
+    width: 200px;
     float: left;
+    padding: 0px 22px 22px 22px;
+}
+
+input[type="text"] {
+    width: 916px;
+    padding: 6px 0;
+    margin: 5px 0;
+}
+
+textarea {
+    width: 916px;
+    height: 150px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+}
+
+.form {
+    padding: 0px 22px 22px 22px;
 }
 
 .header-font {
