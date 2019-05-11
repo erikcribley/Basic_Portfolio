@@ -101,7 +101,7 @@ input[type="submit"] {
     background: #4aaaa5;
     color: #fff;
     padding: 10px 30px;
-    border: 0;
+    border: 4px;    
 }
 
 .form {
@@ -115,4 +115,24 @@ input[type="submit"] {
 a {
     text-decoration: none;
     padding: 15px;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+.frame {
+    float: left;
+    padding: 22px;
+    position: relative;
+}
+
+h3 {
+    background: #4aaaa5;
+    color: #fff;
+    width: 300px;
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    padding: 10px 0;
 }
